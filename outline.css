@@ -1,3 +1,103 @@
-.image {
-    font-size: 8px;
+sup {
+    font-family: 'Open Sans';
+    font-style: italic;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+.name{
+    display: flex;
+    flex-grow: 1;
+    flex: auto;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.picture img{
+    display: flex;
+    width: 50%;
+}
+.picture {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    text-align: center;
+}
+
+body {
+    background-color: #5DC8CD;
+}
+
+.about {
+    margin: 0;
+    text-align: center;
+    font-family: 'Open Sans';
+}
+.projects {
+    text-align: center;
+    font-family: 'Open Sans';
+}
+.projects ul{
+    margin: 0;
+    text-align: center;
+    list-style: upper-roman;
+}
+.achievments{
+    text-align: center;
+    font-family: 'Open Sans';
+}
+.achievments ul{
+    margin: 0;
+    text-align: center;
+    list-style: upper-roman;
+}
+
+.contacts ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-family: 'Open Sans';
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Oswald';
+    color:#006064;
+    font-weight: bold;
+    text-align: center;
+}
+h2 {
+    margin: 0;
+    font-family: 'Oswald';
+    color:#006064;
+    text-align: center;
+    font-weight: bold;
+}
+nav ul {
+    background-color: #01939A;    
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+nav li {
+    flex: auto;
+    display: flex;
+}
+nav li:hover {
+    background-color: #026e74;
+}
+nav a {
+    display: flex;
+    font-family: Oswald;
+    justify-content: center;  
+    color:#006064;
+    flex: auto;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+pre{
+    margin: 0;
 }

@@ -5,29 +5,40 @@
     <meta name="WebCV" content="Сайт-резюме начинающего разработчика">
     <title>Набиуллин Михаил M33021</title>
     <link rel="stylesheet" href="outline.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 </head>
 <body>
     <header>
-            <h1>Набиуллин Михаил</h1>
-            <h2>Разработчик</h2>
-            <sup>Продолжай топить, и одного дня ты окажешься на вершине</sup>
+        <div class="header">
+            <div class="name">
+                <h1>НАБИУЛЛИН МИХАИЛ</h1>
+                <h2>Разработчик</h2>
+            </div>
+            <div class="picture">
+                <img src="img/pasport.jpg">
+                <sup>Продолжай топить, и одного дня ты окажешься на вершине &copy</sup> 
+            </div>
+        </div>
+        
+            
             <nav>
-                <ul>
-                    <li>Обо мне</li>
-                    <li>Мои проекты</li>
-                    <li>Мои достижения</li>
-                    <li>Контакты</li>
+                <ul class="menu">
+                    <li><a href="#about">ОБО МНЕ</a></li>
+                    <li><a href="#projects"a>МОИ ПРОЕКТЫ</a></li>
+                    <li><a href="#achievments">МОИ ДОСТИЖЕНИЯ</a></li>
+                    <li><a href="#contacts">КОНТАКТЫ</a></li>
                 </ul>
             </nav>
     </header>
     <main>
-            <section class = "about">
-                <h2>Обо мне</h2>
+            <section id="about" class = "about">
+                <h2>ОБО МНЕ</h2>
                 <p>Учусь в ИТМО на 3 курсе факультета ИТиП, люблю решать головоломки или задачи "на смекалочку", 
             с каким-то конкретным направлением разработки я пока не определился, ну да ладно</p>
             </section>
-            <section class = "projects">
-                <h2>Проекты</h2>
+            <section id="projects" class = "projects">
+                <h2>МОИ ПРОЕКТЫ</h2>
                 <a href="https://github.com/MixailN">GitHub</a>
                 <ul>
                     <li>Консольная игра в стиле HoMM на C#</li>
@@ -35,25 +46,21 @@
                     <li>Плагин для Intellij IDEA</li>
                 </ul>
             </section>
-            <section class = "achievments">
-                <h2>Мои достижения</h2>
+            <section id="achievments" class = "achievments">
+                <h2>МОИ ДОСТИЖЕНИЯ</h2>
                 <ul>
                     <li>Учусь в первом неклассическом университете ИТМО</li>
-                    <li> 
-                        <pre>
-                            <code>
+                    <li> Моя первая программа!<pre><code>
 public static void main(String[] args) {
     System.out.println("Hello World!!!");
-}
-                            </code>
-                        </pre>
+}</code></pre>
                 </li>
                 </ul>
             </section>
     </main>
     <footer>
-            <section class="contacts">
-                <h2>Контакты</h2>
+            <section id="contacts" class="contacts">
+                <h2>КОНТАКТЫ</h2>
                 <ul>
                     <li><a href="https://vk.com/id255173657">Вконтакте</a></li>
                     <li><a href="https://t.me/zero_three003">Телеграмм</a></li>
@@ -61,8 +68,7 @@ public static void main(String[] args) {
                     <li>Телефон - 88005553535</li>
                 </ul>
             </section>
-            <p>Моё тотемное животное кот</p>
-            <pre class="image">
+            <!-- <pre class="image">
                 ##########################################################################################################################################################################
                 ##########################################################################################################################################################################
                 ###############################################################################@@###@##@@@################################################################################
@@ -168,8 +174,7 @@ public static void main(String[] args) {
                 @#######@####@#=%%%%%%%%%%%%%%#=%%%%%%%%%%%%%=#%%%%#=%%%%%%%===#===%%%%%%%%%%%%%%%%%%%%%==+.#==#%%%%%#@@@@@#=%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%=#%%@@@%=%@%@@@@@@@%%%%%
                 ##########@@@@#=%%%%%%%%%%%%%%%@%%%%%%%%%%%%%=#%%%%#=%%%%%%%=+#=%%%%====%%%%%%%%%%%%%%%%=#-:@=@%%%=%%%=%%%=%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%=%%%=%=@%%#@@%=%%%@@@@@@@@@@%%
                 
-            </pre>
-            <p>но это не кот</p>
+            </pre> -->
     </footer>
 </body>
 </html>
