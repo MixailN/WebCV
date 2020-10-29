@@ -2,6 +2,9 @@ sup {
     font-family: 'Open Sans';
     font-style: italic;
 }
+body {
+    margin: 0;
+}
 .header{
     display: flex;
     justify-content: space-around;
@@ -15,11 +18,13 @@ sup {
 }
 .picture img{
     display: flex;
+    border-radius: 100%;
     width: 50%;
 }
 .picture {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 40%;
     text-align: center;
 }
@@ -54,6 +59,7 @@ body {
 
 .contacts ul{
     display: flex;
+    padding: 0;
     justify-content: space-around;
     list-style: none;
     font-family: 'Open Sans';
@@ -68,11 +74,16 @@ h1 {
 }
 h2 {
     margin: 0;
+    padding: 10px 0;
     font-family: 'Oswald';
     color:#006064;
     text-align: center;
     font-weight: bold;
 }
+p {
+    margin: 0;
+}
+
 nav ul {
     background-color: #01939A;    
     list-style: none;
